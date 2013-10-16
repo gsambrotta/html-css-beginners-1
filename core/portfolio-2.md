@@ -147,10 +147,12 @@ By default the a tag is styled like this:
 
 You can change the style and the color by selecting the a tag.
 
-There still at least one important link to explain. The mailto link.
-Write mailto: myemail@google.com tell to the browser to open the default
-email programm on the user machine with the email destinatary field already fill in. Nice, isn't it?
-So go ahead and write the mailto link with your personal email instead of # 
+**Using links to send email**
+
+There is still one more important link to explain. The mailto link.
+Instead of an URL, you can write `href="mailto: myemail@google.com"`. This way you can tell the browser 
+to open the user's default email programm with the email destinatary field already filled in. 
+Nice, isn't it? So go ahead and write the mailto link with your personal email instead of `#`
 in your contact list and try it out.
 
 **:hover**
